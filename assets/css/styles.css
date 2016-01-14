@@ -41,6 +41,8 @@ h6,
 .h6 {
   color: #666666;
 }
+
+
 header .navbar-default {
   background: none;
   border: none;
@@ -561,19 +563,9 @@ section::after {
   border: none;
   background: #ffffff;
   /* Old browsers */
-  background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* IE10+ */
-  background: linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+ 
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#cccccc, GradientType=1);
+  
   /* IE6-9 fallback on horizontal gradient */
 }
 .btn.btn-lg {
@@ -611,10 +603,22 @@ form textarea.form-control {
   height: auto;
   line-height: normal;
 }
+#logo{
+    color: #ffffff !important;
+    
+  }
+.logo{
+  margin-top:45px;
+}
 @media screen and (max-width: 640px) {
   .logo {
     width: 100px;
-    height: auto;
+    height: auto; 
+    font-family: 'Lato', Arial;
+    
+  }
+  #logo{
+    color: #ffffff !important;
   }
   .slick-next {
     right: 0;
@@ -627,10 +631,12 @@ form textarea.form-control {
   }
   header .navbar-default {
     padding: 20px;
+    margin-right: 10px;
+    margin-left:10px;
   }
   header .navbar-default .navbar-toggle {
     margin-top: 0px;
-    margin-right: 0px;
+    margin-right: 10px;
     background: none;
     border: 2px solid #ffffff;
     color: #ffffff;
@@ -647,6 +653,7 @@ form textarea.form-control {
   header .navbar-default ul.navbar-nav {
     padding-top: 0;
     margin: 0;
+    
   }
   header .navbar-default ul.navbar-nav li a {
     padding: 10px;
@@ -743,21 +750,21 @@ form textarea.form-control {
   }
 }
 header {
-  background: #66cdcc;
+  background: #2ecc71;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -moz-linear-gradient(-45deg, #2ecc71 0%, #2ecc71 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #66cdcc), color-stop(100%, #336799));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #2ecc71), color-stop(100%, #2ecc71));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -webkit-linear-gradient(-45deg, #2ecc71 0%, #2ecc71 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -o-linear-gradient(-45deg, #2ecc71 0%, #2ecc71 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -ms-linear-gradient(-45deg, #2ecc71 0%, #2ecc71 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: linear-gradient(-45deg, #2ecc71 0%, #2ecc71 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#2ecc71, endColorstr=#2ecc71, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
 header .navbar-default ul.navbar-nav li a {
@@ -816,60 +823,60 @@ header .navbar-default ul.navbar-nav li a:hover {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default.scrolled {
-  border-bottom: 3px solid #336799;
+  border-bottom: 3px solid #2ecc71;
 }
 header .navbar-default.scrolled ul.navbar-nav li a {
-  color: #336799;
+  color: #2ecc71;
 }
 header .navbar-default.scrolled ul.navbar-nav li a:hover {
-  color: #336799;
+  color: #2ecc71;
 }
 header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
-  background: #336799;
+  background: #2ecc71;
 }
 header .navbar-default.scrolled .navbar-brand {
-  background: #336799;
+  background: #2ecc71;
 }
 section .section-heading .divider:after {
-  background: #66cdcc;
+  background: #2ecc71;
 }
 section#about .about-item i.fa {
-  border: 2px solid #66cdcc;
-  color: #66cdcc;
+  border: 2px solid #2ecc71;
+  color: #2ecc71;
 }
 section#about .about-item:hover i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background: #2ecc71;
 }
 section#about .about-item:hover h3 {
-  color: #66cdcc;
+  color: #2ecc71;
 }
 section#features {
   background: #f6f6f6;
 }
 section#features header h1:after {
-  background: #66cdcc;
+  background: #2ecc71;
 }
 section#features .media i.fa {
-  border: 2px solid #66cdcc;
-  color: #66cdcc;
+  border: 2px solid #2ecc71;
+  color: #2ecc71;
 }
 section#features .media:hover i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background: #2ecc71;
 }
 section#features .media:hover h3 {
-  color: #66cdcc;
+  color: #2ecc71;
 }
 section#features .media.active i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background: #2ecc71;
 }
 section#features .media.active .media-heading {
-  color: #66cdcc;
+  color: #2ecc71;
 }
 section#reviews {
-  background: url("../img/freeze/bk-freeze.jpg");
+  background-color:#2ecc71;
 }
 section#reviews header {
   color: #ffffff;
@@ -884,10 +891,10 @@ section#reviews .review-filtering .review .review-comment {
   background: #ffffff;
 }
 section#reviews .review-filtering .review .review-comment h3 {
-  color: #66cdcc;
+  color: #2ecc71;
 }
 section#reviews .review-filtering .review .review-comment p span i {
-  color: #66cdcc;
+  color: #2ecc71;
 }
 section#reviews .review-filtering .review .review-comment:after {
   border-right-color: #ffffff;
@@ -897,10 +904,10 @@ section#reviews .review-filtering .slick-dots li button {
   border: 2px solid #ffffff;
 }
 section#reviews .review-filtering .slick-dots li.slick-active button {
-  background: #66cdcc;
+  background: #2ecc71;
 }
 section#screens header h1:after {
-  background: #66cdcc;
+  background: #2ecc71;
 }
 section#screens .slider div img {
   border: 2px solid #e5e5e5;
@@ -912,7 +919,7 @@ section#screens .slider .slick-dots li button {
   background: #999999;
 }
 section#screens .slider .slick-dots li.slick-active button {
-  background: #66cdcc;
+  background: #2ecc71;
 }
 section#screens .filter a {
   border: 2px solid #cccccc;
@@ -920,24 +927,24 @@ section#screens .filter a {
 }
 section#screens .filter a:hover {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background: #2ecc71;
+  border-color: #2ecc71;
 }
 section#screens .filter a.active {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background: #2ecc71;
+  border-color: #2ecc71;
 }
 /* demo video Section */
 section#demo {
   background: #f6f6f6;
 }
 section#demo header h1:after {
-  background: #66cdcc;
+  background: #2ecc71;
 }
 /* Get app Section */
 section#getApp {
-  background: url("../img/freeze/bk-freeze-ga.jpg");
+  background-color: #2ecc71;
 }
 section#getApp header {
   color: #ffffff;
@@ -960,43 +967,43 @@ section#getApp .platforms .media:hover {
 }
 section#getApp .platforms .media:hover a i,
 section#getApp .platforms .media:hover a div.media-body {
-  color: #66cdcc;
+  color: #2ecc71;
 }
 /* support section */
 section#support header h1:after {
-  background: #66cdcc;
+  background: #2ecc71;
 }
 section#support .media i.fa {
-  border: 2px solid #66cdcc;
-  color: #66cdcc;
+  border: 2px solid #2ecc71;
+  color: #2ecc71;
 }
 section#support .media a {
-  color: #66cdcc;
+  color: #2ecc71;
 }
 section#support .media:hover i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background: #2ecc71;
 }
 section#support .media:hover h3 {
-  color: #66cdcc;
+  color: #2ecc71;
 }
 /* footer section */
 footer {
-  background: #66cdcc;
+  background: #2ecc71;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -moz-linear-gradient(-45deg, #2ecc71 0%, #2ecc71 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #66cdcc), color-stop(100%, #336799));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #2ecc71), color-stop(100%, #2ecc71));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -webkit-linear-gradient(-45deg, #2ecc71 0%, #2ecc71 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -o-linear-gradient(-45deg, #2ecc71 0%, #2ecc71 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -ms-linear-gradient(-45deg, #2ecc71 0%, #2ecc71 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: linear-gradient(-45deg, #2ecc71 0%, #2ecc71 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#2ecc71, endColorstr=#2ecc71, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
 footer .social a {
@@ -1009,7 +1016,7 @@ footer .social a:hover {
   background: #ffffff;
 }
 footer .social a:hover i {
-  color: #66cdcc;
+  color: #2ecc71;
 }
 footer .rights {
   color: #ffffff;
@@ -1024,13 +1031,13 @@ footer .rights a {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 .btn.btn-primary {
-  color: #66cdcc;
-  border-color: #66cdcc;
+  color: #2ecc71;
+  border-color: #2ecc71;
 }
 .btn.btn-primary:hover {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background: #2ecc71;
+  border-color: #2ecc71;
 }
 .btn.btn-primary.inverse {
   color: #ffffff;
@@ -1038,8 +1045,8 @@ footer .rights a {
 }
 .btn.btn-primary.inverse:hover {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background: #2ecc71;
+  border-color: #2ecc71;
 }
 .btn.btn-default {
   background: #ffffff;
@@ -1058,13 +1065,13 @@ footer .rights a {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#cccccc, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
-  color: #336799;
+  color: #2ecc71;
 }
 .btn.btn-default:hover {
-  color: #336799;
+  color: #2ecc71;
 }
 form .form-control:focus {
-  border-color: #66cdcc;
+  border-color: #2ecc71;
   color: #999999;
 }
 @media screen and (max-width: 640px) {
@@ -1083,21 +1090,24 @@ form .form-control:focus {
     display: none;
   }
   header .navbar-default ul.navbar-nav li a:hover {
-    color: #66cdcc;
+    color: #2ecc71 
   }
   header .navbar-default .navbar-collapse {
-    background: #336799;
+    background: #2ecc71;
   }
   header .navbar-default.scrolled {
-    background: #336799;
+    background: #2ecc71;
   }
   header .navbar-default.scrolled ul.navbar-nav li a {
     color: #ffffff;
   }
   header .navbar-default.scrolled ul.navbar-nav li a:hover {
-    color: #66cdcc;
+    color: #2ecc71;
   }
 }
 .pre-loader {
-  background: #336799;
+  background: #2ecc71;
+}
+.texto-medio{
+font-size:20pt;
 }
