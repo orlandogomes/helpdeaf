@@ -30,7 +30,7 @@ angular.module('app.routes', [])
     
       
         
-    .state('configuraçõEs', {
+    .state('configurações', {
       url: '/page9',
       templateUrl: 'templates/configuraçõEs.html',
       controller: 'configuraçõEsCtrl'
@@ -80,7 +80,7 @@ angular.module('app.routes', [])
     
       
         
-    .state('descriçãODeNecessidades-Surdo', {
+    .state('descriçãoDeNecessidades-Surdo', {
       url: '/page6',
       templateUrl: 'templates/descriçãODeNecessidades-Surdo.html',
       controller: 'descriçãODeNecessidades-SurdoCtrl'
