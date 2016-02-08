@@ -1,32 +1,41 @@
-<ion-view title="Cadastro geral">
-    <ion-content overflow-scroll="true" padding="true" class="has-header">
+<ion-view title="Cadastro Usuário">
+   
+    <ion-content overflow-scroll="true" class="has-header">
+        
         <form class="list">
             <label class="item item-input">
-                <span class="input-label">Nome</span>
-                <input type="text" placeholder="">
+               
+            <input type="text" placeholder="Digite seu nome...">
             </label>
             <label class="item item-input">
-                <span class="input-label">E-mail</span>
-                <input type="text" placeholder="">
+                
+            <input type="text" placeholder="Digite seu e-mail...">
             </label>
             <label class="item item-input">
-                <span class="input-label">Usuário</span>
-                <input type="text" placeholder="">
+                
+            <input type="text" placeholder="Digite seu usuário...">
             </label>
             <label class="item item-input">
-                <span class="input-label">Senha</span>
-                <input type="text" placeholder="">
+               
+            <input type="text" placeholder="Digite sua senha (minimo 8 caracteres)...">
             </label>
             <label class="item item-select">
                 <span class="input-label">Estado</span>
-                <select></select>
+                <select>
+                 <option>São Paulo</option>
+                 <option>Rio de Janeiro</option>
+                 <option>Minas Gerais</option>
+                </select>
             </label>
             <label class="item item-select">
                 <span class="input-label">Cidade</span>
-                <select></select>
+                <select>
+                 <option>São Paulo</option>
+                 <option>Osasco</option>
+                 <option>Vila Olimpia</option>
+                </select>
             </label>
-            <ion-list></ion-list>
-        </form>
+            
         <ion-list>
             <label class="item item-select">
                 <span class="input-label">Nível Libras</span>
@@ -37,17 +46,19 @@
                     <option>Nenhum</option>
                 </select>
             </label>
-            <ion-checkbox>Entende leitura labial?</ion-checkbox>
-        </ion-list>
-        <form class="list">
+            <ion-checkbox>Leitura Labial</ion-checkbox>
+        
             <label class="item item-select">
-                <span class="input-label">Você é:</span>
+                <span class="input-label">Perfil</span>
                 <select>
                     <option>Surdo</option>
                     <option>Ouvinte</option>
                 </select>
             </label>
+        
+        <a href="#/page1" class="button button-stable button-block">Cadastrar</a>
+        
         </form>
-        <button class="button button-stable button-block ">Cadastrar</button>
+        </ion-list>
     </ion-content>
 </ion-view>

@@ -1,22 +1,33 @@
 <ion-view title="Login">
-    <ion-content overflow-scroll="true" padding="true" class="has-header">
+   <ion-content overflow-scroll="true" padding="true" class="has-header">
+       
+       
+ <ion-content overflow-scroll = "true">
+    <ion-list>
+     <ion-item ng-repeat="foo in bar">
+       {{foo.label}}
+     </ion-item>
+   </ion-list>
+ </ion-content>
+       
+       
         <form class="list">
             <div style="text-align:left;">
-                <img src="img/oemg82AQvxYu2vdTyQzg_logo-hp-2.jpg" width="90%" height="auto">
+                <img src="img/oemg82AQvxYu2vdTyQzg_logo-hp-2.jpg" width="90%" height="left">
             </div>
             <ion-list>
                 <label class="item item-input">
-                    <span class="input-label">Usuário</span>
-                    <input type="text" placeholder="">
+                    <span class="input-label">Usuário:</span>
+                    <input type="text" placeholder="Digite seu usuário...">
                 </label>
                 <label class="item item-input">
-                    <span class="input-label">Senha</span>
-                    <input type="password" placeholder="">
+                    <span class="input-label">Senha:</span>
+                    <input type="password" placeholder="Digite sua senha...">
                 </label>
             </ion-list>
             <div class="spacer" style="height: 40px;"></div>
-            <button class="button button-stable button-block ">Log in</button>
+            <a href="#/page4" class="button button-stable button-block">Logar</a>
         </form>
-        <a href="#/page2" class="button button-positive button-clear button-block ">Ou cadastra-se aqui</a>
+           <a href="#/page2" class="button button-stable button-block">Cadastro</a>
     </ion-content>
 </ion-view>
