@@ -1,41 +1,31 @@
-<ion-view title="Descrição de necessidades - Surdo">
+<ion-view title="Descreva sua Necessidade">
     <ion-content overflow-scroll="true" padding="true" class="has-header">
         <div class="button-bar">
-            <button class="button button-stable button-block ">1</button>
-            <button class="button button-stable button-block ">2</button>
-            <button class="button button-stable button-block ">3</button>
+            <a href="#/page3" class="button button-stable button-block ">Meu Perfil</button></a>
+            <a href="#/page9" class="button button-stable button-block ">Configurações</button>
+            <a href="#/page1" class="button button-stable button-block ">Tela Inicial</a>
         </div>
         
         <form class="list">
             <label class="item item-input">
-                <span class="input-label">Descreva sua necessidade</span>
-                <input type="text" placeholder="">
+                <span class="input-label">Necessidade:</span>
+                <input type="text" placeholder="Descreva o que necessita">
             </label>
         </form>
         
-        <form class="list">
+       
+     <label class="item item-input">
+        <span class="input-label">Data:</span>
+        <input type="text" datetime="dd-MM-yyyy" placeholder="01/01/1999" />
+      </label>
+        
+     <form class="list">
             <label class="item item-input">
-                <span class="input-label">Quando:</span>
-                <input type="text" placeholder="">
+                <span class="input-label">Horario:</span>
+                <input type="text" placeholder="Horario Disponivel:">
             </label>
         </form>
         
-        <div class="button-bar">
-            <button class="button button-stable button-block ">Dia</button>
-            <button class="button button-stable button-block ">Mês</button>
-            <button class="button button-stable button-block ">Ano</button>
-        </div>
-        
-        <form class="list">
-            <label class="item item-input">
-                <span class="input-label">Horário:</span>
-                <input type="text" placeholder="Digite seu horario disponivel">
-            </label>
-        </form>
-        <div class="button-bar">
-            <button class="button button-stable button-block ">A partir</button>
-            <button class="button button-stable button-block ">Até</button>
-        </div>
         <button class="button button-stable button-block ">Registrar</button>
     </ion-content>
 </ion-view>
