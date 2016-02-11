@@ -4,7 +4,7 @@ angular.module('app.controllers', [])
 
  //Testes Controllers
  
-  
+
     $scope.enviarForm = function(usuarioForm, usuario) {
     if (usuarioForm.$valid) {
       postarAPI(usuario);
@@ -80,7 +80,11 @@ angular.module('app.controllers', [])
 
 })
    
-.controller('descriçãODeNecessidades-SurdoCtrl', function($scope) {
+.controller('descriçãoDeNecessidades-SurdoCtrl', function($scope) {
+   $scope.alertbleh = function(){
+        alert("bleeeeeeh");
+    }
+  
 
 })
    
