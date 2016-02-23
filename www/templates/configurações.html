@@ -1,39 +1,47 @@
 <ion-view title="Configurações">
     <ion-content overflow-scroll="true" padding="true" class="has-header">
         <form class="list">
-            <label class="item item-input">
-                <span class="input-label">Nome</span>
-                <input type="text" placeholder="">
-            </label>
+           
+           <div class="list">
+           <label class="item item-input item-stacked-label">
+           <span class="input-label">Nome:</span>
+           <input type="text" placeholder="">
+           </label>
+        
+           <div class="list">
+           <label class="item item-input item-stacked-label">
+           <span class="input-label">E-mail:</span>
+           <input type="text" datetime = "dd/mm/yyyy" placeholder="">
+           </label>
+        
+           <div class="list">
+           <label class="item item-input item-stacked-label">
+           <span class="input-label">Usuário:</span>
+           <input type="text" placeholder="">
+           </label>
+           
+           <div class="list">
+           <label class="item item-input item-stacked-label">
+           <span class="input-label">Senha:</span>
+           <input type="text" placeholder="">
+           </label>
+           
+           <div class="list">
+           <label class="item item-input item-stacked-label">
+           <span class="input-label">Estado:</span>
+           <input type="text" placeholder="">
+           </label>
+           
+           <div class="list">
+           <label class="item item-input item-stacked-label">
+           <span class="input-label">Cidade:</span>
+           <input type="text" placeholder="">
+           </label>
             
-            <label class="item item-input">
-                <span class="input-label">E-mail</span>
-                <input type="text" placeholder="">
-            </label>
             
-            <label class="item item-input">
-                <span class="input-label">Usuário</span>
-                <input type="text" placeholder="">
-            </label>
-            
-            <label class="item item-input">
-                <span class="input-label">Senha</span>
-                <input type="text" placeholder="">
-            </label>
-            
-            <label class="item item-select">
-                <span class="input-label">Estado</span>
-                <select></select>
-            </label>
-            
-            <label class="item item-select">
-                <span class="input-label">Cidade</span>
-                <select></select>
-            </label>
-            
-            <ion-list></ion-list>
         </form>
         <ion-list>
+            
             <label class="item item-select">
                 <span class="input-label">Nível Libras</span>
                 <select>
@@ -43,8 +51,8 @@
                     <option>Nenhum</option>
                 </select>
             </label>
-            <ion-checkbox>Entende leitura labial?</ion-checkbox>
         </ion-list>
+        
         <form class="list">
             <label class="item item-select">
                 <span class="input-label">Perfil</span>
@@ -53,7 +61,9 @@
                     <option>Ouvinte</option>
                 </select>
             </label>
+              <a href="#/page4" class="button button-stable button-block">Alterar</button></a>
         </form>
-        <button class="button button-stable button-block">Alterar</button>
+        
+          <ion-checkbox>Entende leitura labial?</ion-checkbox>
     </ion-content>
 </ion-view>

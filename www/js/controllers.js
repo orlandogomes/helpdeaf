@@ -81,14 +81,25 @@ angular.module('app.controllers', [])
 })
    
 .controller('descriçãoDeNecessidades-SurdoCtrl', function($scope) {
-   $scope.alertbleh = function(){
-        alert("bleeeeeeh");
-    }
-  
-
+ 
 })
    
-.controller('telaDiponibilidade-OuvinteCtrl', function($scope) {
+.controller('telaDiponibilidade-OuvinteCtrl', function($scope, $ionicPopup) {
+
+
+  $scope.showConfirm = function() {
+        var confirmPopup = $ionicPopup.confirm({
+          title: 'Ionic Popup',
+          template: 'Registro feito com sucesso !'
+        });
+        confirmPopup.then(function(res) {
+          if(res) {
+            console.log('You clicked on "OK" button');
+          } else {
+            console.log('You clicked on "Cancel" button');
+          }
+        });
+      };
 
 })
  

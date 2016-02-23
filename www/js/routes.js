@@ -85,9 +85,15 @@ angular.module('app.routes', [])
       templateUrl: 'templates/descriçãoDeNecessidades-Surdo.html',
       controller: 'descriçãODeNecessidades-SurdoCtrl'
     })
-        
-      
     
+    
+    
+    .state('listaDeSurdos', {
+      url: '/page10',
+      templateUrl: 'templates/listaDeSurdos.html',
+      controller: 'listaDeSurdosCtrl'
+    })
+        
       
         
     .state('telaDiponibilidade-Ouvinte', {
@@ -95,10 +101,22 @@ angular.module('app.routes', [])
       templateUrl: 'templates/telaDiponibilidade-Ouvinte.html',
       controller: 'telaDiponibilidade-OuvinteCtrl'
     })
+    
+    
+     .state('notificações', {
+      url: '/page11',
+      templateUrl: 'templates/notificações.html',
+      controller: 'telaDiponibilidade-OuvinteCtrl'
+    })
+    
+    .state('video', {
+      url: '/page12',
+      templateUrl: 'templates/video.html',
+      controller: 'telaDiponibilidade-OuvinteCtrl'
+    })
         
       
     ;
-
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/page1');
 

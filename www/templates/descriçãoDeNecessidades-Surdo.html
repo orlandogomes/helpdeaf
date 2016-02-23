@@ -6,26 +6,31 @@
             <a href="#/page1" class="button button-stable button-block ">Tela Inicial</a>
         </div>
         
-        <form class="list">
-            <label class="item item-input">
-                <span class="input-label">Necessidade:</span>
-                <input type="text" placeholder="Descreva o que necessita">
-            </label>
-        </form>
+           <div class="list">
+           <label class="item item-input item-stacked-label">
+           <span class="input-label">Necessidade:</span>
+           <input type="text" placeholder="Descreva o que necessita">
+           </label>
         
-       
-     <label class="item item-input">
-        <span class="input-label">Data:</span>
-        <input type="text" datetime="dd-MM-yyyy" placeholder="01/01/1999" />
-      </label>
+           <div class="list">
+           <label class="item item-input item-stacked-label">
+           <span class="input-label">Data:</span>
+           <input type="text" datetime = "dd/mm/yyyy" placeholder="01/01/1999">
+           </label>
         
-     <form class="list">
-            <label class="item item-input">
-                <span class="input-label">Horario:</span>
-                <input type="text" placeholder="Horario Disponivel:">
-            </label>
-        </form>
-        
-        <button class="button button-stable button-block" ng-click="alertbleh()">Registrar</button>
+           <div class="list">
+           <label class="item item-input item-stacked-label">
+           <span class="input-label">Horario Inicio:</span>
+           <input type="text" placeholder="Inicio">
+           </label>
+           
+           <div class="list">
+           <label class="item item-input item-stacked-label">
+           <span class="input-label">Horario Termino:</span>
+           <input type="text" placeholder="Termino">
+           </label>
+           
+           </form>
+        <button class="button button-stable button-block" ng-click="showConfirm">Registrar</button>
     </ion-content>
 </ion-view>

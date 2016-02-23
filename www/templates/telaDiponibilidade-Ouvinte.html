@@ -6,7 +6,7 @@
             <a href="#/page1" class="button button-stable button-block ">Tela Inicial</a>
         </div>
         
-        <h5>Escolha o dia de sua preferencia para ajudar ! =D</h5>
+        <h3>Escolha o dia de sua preferencia para ajudar ! =D</h3>
         
         </label>
             <label class="item item-select">
@@ -22,6 +22,8 @@
                  <option>08</option>
                  <option>09</option>
                  <option>10</option>
+                 <option>11</option>
+                 <option>12</option>
                  <option>11</option>
                  <option>12</option>
                 </select>
@@ -50,7 +52,7 @@
         <form class="list">
             <label class="item item-input">
                 <span class="input-label">Horário Inicio:</span>
-                <input type="text" placeholder="Inicio">
+                <input type="text" placeholder="Inicio:">
             </label>
         </form>
         
@@ -61,6 +63,6 @@
             </label>
         </form>
     
-        <button class="button button-stable button-block">Registrar</button>
+        <button class="button button-stable button-block" ng-click="showAlert()">Registrar</button>
     </ion-content>
 </ion-view>
