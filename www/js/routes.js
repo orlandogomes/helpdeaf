@@ -78,8 +78,6 @@ angular.module('app.routes', [])
         
       
     
-      
-        
     .state('descriçãoDeNecessidades-Surdo', {
       url: '/page6',
       templateUrl: 'templates/descriçãoDeNecessidades-Surdo.html',

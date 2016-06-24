@@ -4,24 +4,29 @@
         
         <form class="list">
             <label class="item item-input">
-               
-            <input type="text" placeholder="Digite seu nome...">
+                
+            <span class="input-label">Nome:</span>   
+            <input type="text" placeholder="Nome">
             </label>
             <label class="item item-input">
                 
-            <input type="text" placeholder="Digite seu e-mail...">
+            <span class="input-label">E-mail:</span>     
+            <input type="text" placeholder="E-mail">
             </label>
             <label class="item item-input">
-                
-            <input type="text" placeholder="Digite seu usuário...">
+            
+            <span class="input-label">Usuário:</span>     
+            <input type="text" placeholder="Usuário">
             </label>
             <label class="item item-input">
-               
-            <input type="text" placeholder="Digite sua senha (minimo 8 caracteres)...">
+             
+           
+            <span class="input-label">Senha:</span>
+            <input type="password" name="senha" placeholder="Senha" ng-model="usuario.senha" required ng-minlength="6" />
             </label>
             
             <label class="item item-select">
-                <span class="input-label">Estado</span>
+                <span class="input-label">Estado:</span>
                 <select>
                  <option>São Paulo</option>
                  <option>Rio de Janeiro</option>
@@ -30,7 +35,7 @@
             </label>
             
             <label class="item item-select">
-                <span class="input-label">Cidade</span>
+                <span class="input-label">Cidade:</span>
                 <select>
                  <option>São Paulo</option>
                  <option>Osasco</option>
@@ -40,7 +45,7 @@
             
         <ion-list>
             <label class="item item-select">
-                <span class="input-label">Nível Libras</span>
+                <span class="input-label">Nível Libras:</span>
                 <select>
                     <option>Básico</option>
                     <option>Intermediário</option>
@@ -50,15 +55,15 @@
             </label>
             <ion-checkbox>Leitura Labial</ion-checkbox>
         
-            <label class="item item-select">
-                <span class="input-label">Perfil</span>
+            l<label class="item item-select">
+                <span class="input-label">Perfil:</span>
                 <select>
                     <option>Surdo</option>
                     <option>Ouvinte</option>
                 </select>
             </label>
         
-        <a href="#/page1" class="button button-stable button-block">Cadastrar</a>
+        <a href="#/page1" class="button button-stable button-block button-balanced">Cadastrar</a>
         
         </form>
         </ion-list>
