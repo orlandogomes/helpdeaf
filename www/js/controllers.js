@@ -31,7 +31,6 @@ angular.module('app.controllers', [])
       };
     
        
-         
           $scope.buscafour = function(param){
             
             //vars da url
@@ -80,14 +79,9 @@ angular.module('app.controllers', [])
 
 })
    
-.controller('descriçãoDeNecessidades-SurdoCtrl', function($scope) {
- 
-})
-   
-.controller('telaDiponibilidade-OuvinteCtrl', function($scope, $ionicPopup) {
-
-
-  $scope.showConfirm = function() {
+.controller('descriçãoDeNecessidades-SurdoCtrl', function($scope, $ionicPopup) {
+  
+    $scope.showConfirm = function() {
         var confirmPopup = $ionicPopup.confirm({
           title: 'Ionic Popup',
           template: 'Registro feito com sucesso !'
@@ -100,6 +94,13 @@ angular.module('app.controllers', [])
           }
         });
       };
+ 
+})
+   
+.controller('telaDiponibilidade-OuvinteCtrl', function($scope) {
+
+
+
 
 })
  
